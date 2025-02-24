@@ -40,7 +40,7 @@ limitations under the License.
 ## Installation
 
 ```bash
-npm install @stdlib/blas-base-saxpy-wasm
+npm install @stdlib/blas-base-wasm-saxpy
 ```
 
 Alternatively,
@@ -60,7 +60,7 @@ To view installation and usage instructions specific to each branch build, be su
 ## Usage
 
 ```javascript
-var saxpy = require( '@stdlib/blas-base-saxpy-wasm' );
+var saxpy = require( '@stdlib/blas-base-wasm-saxpy' );
 ```
 
 #### saxpy.main( N, alpha, x, strideX, y, strideY )
@@ -324,7 +324,7 @@ The function has the following additional parameters:
 
 ```javascript
 var discreteUniform = require( '@stdlib/random-array-discrete-uniform' );
-var saxpy = require( '@stdlib/blas-base-saxpy-wasm' );
+var saxpy = require( '@stdlib/blas-base-wasm-saxpy' );
 
 var opts = {
     'dtype': 'float32'
@@ -377,7 +377,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -387,19 +387,19 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <section class="links">
 
-[npm-image]: http://img.shields.io/npm/v/@stdlib/blas-base-saxpy-wasm.svg
-[npm-url]: https://npmjs.org/package/@stdlib/blas-base-saxpy-wasm
+[npm-image]: http://img.shields.io/npm/v/@stdlib/blas-base-wasm-saxpy.svg
+[npm-url]: https://npmjs.org/package/@stdlib/blas-base-wasm-saxpy
 
-[test-image]: https://github.com/stdlib-js/blas-base-saxpy-wasm/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/blas-base-saxpy-wasm/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/blas-base-wasm-saxpy/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/blas-base-wasm-saxpy/actions/workflows/test.yml?query=branch:main
 
-[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/blas-base-saxpy-wasm/main.svg
-[coverage-url]: https://codecov.io/github/stdlib-js/blas-base-saxpy-wasm?branch=main
+[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/blas-base-wasm-saxpy/main.svg
+[coverage-url]: https://codecov.io/github/stdlib-js/blas-base-wasm-saxpy?branch=main
 
 <!--
 
-[dependencies-image]: https://img.shields.io/david/stdlib-js/blas-base-saxpy-wasm.svg
-[dependencies-url]: https://david-dm.org/stdlib-js/blas-base-saxpy-wasm/main
+[dependencies-image]: https://img.shields.io/david/stdlib-js/blas-base-wasm-saxpy.svg
+[dependencies-url]: https://david-dm.org/stdlib-js/blas-base-wasm-saxpy/main
 
 -->
 
@@ -413,15 +413,15 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [umd]: https://github.com/umdjs/umd
 [es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
-[deno-url]: https://github.com/stdlib-js/blas-base-saxpy-wasm/tree/deno
-[deno-readme]: https://github.com/stdlib-js/blas-base-saxpy-wasm/blob/deno/README.md
-[umd-url]: https://github.com/stdlib-js/blas-base-saxpy-wasm/tree/umd
-[umd-readme]: https://github.com/stdlib-js/blas-base-saxpy-wasm/blob/umd/README.md
-[esm-url]: https://github.com/stdlib-js/blas-base-saxpy-wasm/tree/esm
-[esm-readme]: https://github.com/stdlib-js/blas-base-saxpy-wasm/blob/esm/README.md
-[branches-url]: https://github.com/stdlib-js/blas-base-saxpy-wasm/blob/main/branches.md
+[deno-url]: https://github.com/stdlib-js/blas-base-wasm-saxpy/tree/deno
+[deno-readme]: https://github.com/stdlib-js/blas-base-wasm-saxpy/blob/deno/README.md
+[umd-url]: https://github.com/stdlib-js/blas-base-wasm-saxpy/tree/umd
+[umd-readme]: https://github.com/stdlib-js/blas-base-wasm-saxpy/blob/umd/README.md
+[esm-url]: https://github.com/stdlib-js/blas-base-wasm-saxpy/tree/esm
+[esm-readme]: https://github.com/stdlib-js/blas-base-wasm-saxpy/blob/esm/README.md
+[branches-url]: https://github.com/stdlib-js/blas-base-wasm-saxpy/blob/main/branches.md
 
-[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/blas-base-saxpy-wasm/main/LICENSE
+[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/blas-base-wasm-saxpy/main/LICENSE
 
 [blas]: http://www.netlib.org/blas
 

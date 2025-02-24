@@ -4,13 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-10-25)
+## Unreleased (2025-02-24)
 
 <section class="features">
 
 ### Features
 
--   [`929a224`](https://github.com/stdlib-js/stdlib/commit/929a2241acc3b3714fb01fcb4a9e295810df5bf5) - add `blas/base/saxpy-wasm` [(#2956)](https://github.com/stdlib-js/stdlib/pull/2956)
+-   [`f19927d`](https://github.com/stdlib-js/stdlib/commit/f19927d6d375ea5ecdab52e52a5d3f92d8f63911) - add `blas/base/wasm/saxpy`
 
 </section>
 
@@ -22,10 +22,7 @@
 
 <details>
 
--   [`91e37be`](https://github.com/stdlib-js/stdlib/commit/91e37be0fc89c072ee006802d5a568eab3003c9a) - **docs:** fix missing license headers _(by Athan Reines)_
--   [`4e19f61`](https://github.com/stdlib-js/stdlib/commit/4e19f611f6c3e875e976dd0c2bcab74628541d85) - **build:** update compiler flags and export resolution _(by Athan Reines)_
--   [`0f8ee58`](https://github.com/stdlib-js/stdlib/commit/0f8ee58b842adebc77aeb2e6aebb41054ad6f3cd) - **docs:** fix overwriting of variables _(by Athan Reines)_
--   [`929a224`](https://github.com/stdlib-js/stdlib/commit/929a2241acc3b3714fb01fcb4a9e295810df5bf5) - **feat:** add `blas/base/saxpy-wasm` [(#2956)](https://github.com/stdlib-js/stdlib/pull/2956) _(by Aman Bhansali, Athan Reines)_
+-   [`f19927d`](https://github.com/stdlib-js/stdlib/commit/f19927d6d375ea5ecdab52e52a5d3f92d8f63911) - **feat:** add `blas/base/wasm/saxpy` _(by Athan Reines)_
 
 </details>
 
@@ -37,9 +34,8 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 1 person contributed to this release. Thank you to this contributor:
 
--   Aman Bhansali
 -   Athan Reines
 
 </section>
