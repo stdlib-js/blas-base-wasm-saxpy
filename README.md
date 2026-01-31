@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import saxpy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-saxpy@esm/index.mjs';
+import saxpy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-saxpy@v0.1.0-esm/index.mjs';
 ```
 
 #### saxpy.main( N, alpha, x, strideX, y, strideY )
@@ -311,7 +311,7 @@ The function has the following additional parameters:
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import saxpy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-saxpy@esm/index.mjs';
+import saxpy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-saxpy@v0.1.0-esm/index.mjs';
 
 var opts = {
     'dtype': 'float32'
