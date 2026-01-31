@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import saxpy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-saxpy@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-base-wasm-saxpy/tags). For example,
+
+```javascript
 import saxpy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-saxpy@v0.1.0-esm/index.mjs';
 ```
 
@@ -311,7 +316,7 @@ The function has the following additional parameters:
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import saxpy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-saxpy@v0.1.0-esm/index.mjs';
+import saxpy from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-saxpy@esm/index.mjs';
 
 var opts = {
     'dtype': 'float32'
